@@ -1,0 +1,16 @@
+{
+  "name": "ceramic_mud",
+  "version": "1.0.0",
+  "description": "Ceramic soul",
+  "license": "ISC",
+  "author": "Daniil",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "sass": "^1.90.0",
+    "vite": "^7.1.2"
+  }
+}
