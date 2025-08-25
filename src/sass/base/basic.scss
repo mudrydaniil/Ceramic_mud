@@ -1,3 +1,5 @@
+@use "/src/sass/base/variables.scss" as *;
+
 h1,
 h2,
 h3,
@@ -35,8 +37,11 @@ html {
     scroll-behavior: smooth;
 }
 
+body {
+    background-color: $light;
+}
+
 .container {
     width: 100%;
     padding: 0 10px;
 }
-
