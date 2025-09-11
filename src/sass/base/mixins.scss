@@ -10,6 +10,8 @@
 }
 
 @mixin button {
+    display: block;
+    padding: 0 10px;
     border-radius: 2px;
     border: $dark;
     border: 1px solid $dark;
@@ -20,4 +22,5 @@
     font-weight: 400;
     text-transform: uppercase;
     background-color: transparent;
+    cursor: pointer;
 }
